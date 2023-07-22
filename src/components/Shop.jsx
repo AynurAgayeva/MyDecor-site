@@ -27,7 +27,7 @@ const Shop = () => {
         <div class="col-md-6">
           <div class="h-100 p-5  rounded-3" data-aos={"zoom-out-down"}>
             <img
-              src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/mg-shop-1.jpg"
+              src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/mg-shop-1.jpg"}
               width={"100%"}
               alt=""
             ></img>
@@ -41,7 +41,7 @@ const Shop = () => {
         <div class="col-md-6">
           <div class=" p-5  rounded-3"data-aos={"zoom-out-right"}>
             <img
-              src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/mg-shop-2.jpg"
+              src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/01/mg-shop-2.jpg"}
               width={"100%"}
               alt=""
             ></img>

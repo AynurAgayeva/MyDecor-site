@@ -13,7 +13,7 @@ const NotFoundPage = () => {
       <img
         width={"100%"}
         height={"auto"}
-        src="https://i.pinimg.com/originals/09/4c/fd/094cfdfce64c317a2c071756cd332ff8.gif"
+        src={"https://i.pinimg.com/originals/09/4c/fd/094cfdfce64c317a2c071756cd332ff8.gif"}
         alt=""
       />
     </div>

@@ -12,7 +12,7 @@ const Home = () => {
         <div className="container-fluid  mx-lg-5 px-lg-5">
           <a className="navbar-brand" href="/">
             <img
-              src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/themes/mydecor/images/logo.png"
+              src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/themes/mydecor/images/logo.png"}
               width={"150px"}
               alt=""
             />

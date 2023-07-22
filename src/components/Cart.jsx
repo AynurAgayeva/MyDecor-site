@@ -27,7 +27,7 @@ const Cart = () => {
 
       <img
         height={300}
-        src="https://thumbs.gfycat.com/SpottedBriskDuckbillplatypus-max-1mb.gif"
+        src={"https://thumbs.gfycat.com/SpottedBriskDuckbillplatypus-max-1mb.gif"}
         alt=""
       />
       <p style={{ color: "black" }}>YOUR CART IS CURRENTLY EMPTY.</p>

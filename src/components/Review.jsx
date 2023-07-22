@@ -19,7 +19,7 @@ const Review = () => {
               <div className="col p-4 d-flex flex-column position-static">
                 <strong className="d-inline-block mb-2 text-primary">
                   <img
-                    src="https://secure.gravatar.com/avatar/8f17385b32442dbd2d9cbd101b38f42f?s=60&d=mm&r=g"
+                    src={"https://secure.gravatar.com/avatar/8f17385b32442dbd2d9cbd101b38f42f?s=60&d=mm&r=g"}
                     alt=""
                   />
                 </strong>
@@ -41,7 +41,7 @@ const Review = () => {
               <div className="col p-4 d-flex flex-column position-static">
                 <strong className="d-inline-block mb-2 text-primary">
                   <img
-                    src="https://secure.gravatar.com/avatar/f458ff8b61e871611d3de680ec718a03?s=60&d=mm&r=g"
+                    src={"https://secure.gravatar.com/avatar/f458ff8b61e871611d3de680ec718a03?s=60&d=mm&r=g"}
                     alt=""
                   />
                 </strong>

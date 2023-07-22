@@ -9,7 +9,7 @@ const Logo = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="center "
-                src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-1.png"
+                src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-1.png"}
                 alt=""
                 width={"60px"}
                 height={"55px"}
@@ -39,7 +39,7 @@ const Logo = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 style={{ margin: "0 auto" }}
-                src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-2.png"
+                src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-2.png"}
                 alt=""
                 width={"60px"}
                 height={"55px"}
@@ -69,7 +69,7 @@ const Logo = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 style={{ margin: "0 auto" }}
-                src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-3.png"
+                src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-3.png"}
                 alt=""
                 width={"60px"}
                 height={"55px"}
@@ -102,7 +102,7 @@ const Logo = () => {
             >
               <img
                 style={{ margin: "0 auto" }}
-                src="https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-4.png"
+                src={"https://mydecor-be87.kxcdn.com/mydecor/wp-content/uploads/2021/09/feature-4.png"}
                 alt=""
                 width={"60px"}
                 height={"55px"}
