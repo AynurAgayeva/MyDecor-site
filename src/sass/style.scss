@@ -1,0 +1,324 @@
+.home {
+  position: relative;
+  height: 80px;
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+
+    .nav-link {
+      font-size: 15px;
+      line-height: 22px;
+      font-family: Jost, sans-serif;
+      font-weight: 550;
+      letter-spacing: 0px;
+      color: rgba(22, 22, 22, 1);
+      margin-right: 15px;
+
+      &:hover {
+        color: #A20401;
+      }
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .link {
+      position: relative;
+      color: rgba(22, 22, 22, 1);
+      border-color: #e5e5e5;
+      width: 35px;
+      height: 30px;
+      text-align: center;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 100%;
+      margin-right: 10px;
+
+      .count-number {
+        position: absolute;
+        right: -5px;
+        border-radius: 100%;
+        top: -5px;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 10px;
+        display: inline-block;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(162, 4, 1, 1);
+      }
+    }
+  }
+}
+
+
+
+.all {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-bg {
+
+    position: absolute;
+    width: 93%;
+    margin-left: 13px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #000;
+    overflow: hidden;
+
+    opacity: 0;
+
+
+  }
+
+  &:hover {
+    img {
+      transform: rotate(5deg) scale(1.1);
+      transition: 0.5s all;
+
+    }
+
+    .card-bg {
+      opacity: 0.3;
+
+    }
+  }
+
+  button {
+    position: absolute;
+    background: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 8px 24px;
+    border: none;
+
+  }
+}
+
+
+.center {
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.text-center {
+  color: #A20401;
+  font-weight: bold;
+}
+
+
+.logo {
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+    &:hover {
+      rotate: 1.75turn;
+      transition: .5s ease-in-out;
+
+
+
+    }
+  }
+}
+
+//Single product
+.shop {
+  z-index: 10000;
+}
+
+.daily {
+
+  color: #707070;
+
+  .card {
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      img {
+        transform: scale(1.3);
+        transition: 1s all;
+      }
+
+    }
+  }
+
+  .card-bg-two {
+    opacity: 0;
+  }
+
+  h6 {
+    color: #161616;
+
+    &:hover {
+      color: #A20401;
+      cursor: pointer;
+    }
+  }
+
+  .discount {
+    border: none;
+    background: none;
+    color: #A20401;
+    font-size: 17px;
+    font-weight: 450;
+  }
+
+  .price {
+    border: none;
+    background: none;
+    font-size: 17px;
+    font-weight: 450;
+
+
+  }
+
+  .end {
+    font-weight: 500;
+
+    &:hover {
+      color: #A20401;
+
+      cursor: pointer;
+    }
+
+    span {
+      font-size: 14px;
+
+    }
+  }
+
+}
+
+.dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.cover-bg {
+
+
+  .cover {
+
+    label {
+      font-size: 14px;
+      margin-bottom: 7px;
+      color: #707070;
+      font-family: Jost, sans-serif;
+      font-weight: 400;
+      letter-spacing: 0px
+    }
+
+    input {
+      border: 1px solid #ddd;
+      padding: 5px;
+      border-radius: 3px;
+    }
+
+    .end {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+
+      button {
+        padding: 5px 10px;
+      }
+
+      .check {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+
+.login {
+  background-color: #f3f1f1;
+  position: relative;
+
+  .left {
+    margin-left: 200px;
+    background: none;
+    border: none;
+
+    .fa-solid {
+      color: #000;
+    }
+  }
+
+  .btn-login {
+    position: absolute;
+    color: #fff;
+    background-color: #5e0706;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+
+    &:hover {
+      color: #5e0706;
+      background-color: #fff;
+    }
+  }
+}
+
+span {
+  margin-right: 6px;
+}
+
+hr {
+  margin: 1.875em 0;
+  border: none;
+  border-bottom: solid 1px #000000;
+}
+
+.dashed {
+  border-bottom: dashed 1px #000000;
+}
+
+.meta {
+  color: #707070
+}
+
+.container {
+  .table {
+    color: #707070;
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 15px;
+  }
+}
+
+
+
